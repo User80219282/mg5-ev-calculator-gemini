@@ -30,15 +30,16 @@
       }
     </script>
   <script type="importmap">
-  {
-    "imports": {
-      "react/": "https://esm.sh/react@^19.1.0/",
-      "react": "https://esm.sh/react@^19.1.0",
-      "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-      "@google/genai": "https://esm.sh/@google/genai"
-    }
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/client": "https://esm.sh/react-dom@^19.1.0/client",
+    "@google/genai": "https://esm.sh/@google/genai",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
   }
-  </script>
+}
+</script>
   <!-- Add Babel for in-browser JSX/TSX transformation -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
