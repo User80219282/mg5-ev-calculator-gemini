@@ -46,8 +46,8 @@
 </head>
   <body class="bg-night-sky">
     <div id="root"></div>
-    <!-- Note the type change to "text/babel" and the added data-type="module" -->
-    <script type="text/babel" data-type="module" src="/index.tsx"></script>
+    <!-- This script tag now correctly tells Babel to use React and TypeScript presets -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="/index.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
