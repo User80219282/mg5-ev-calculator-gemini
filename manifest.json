@@ -1,0 +1,16 @@
+{
+  "short_name": "EV Charge Calc",
+  "name": "EV Charge Time & Cost Calculator",
+  "description": "Calculate the time and cost to charge your EV to 100% based on your current battery level, charger power, and electricity cost.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#111827",
+  "background_color": "#111827"
+}
